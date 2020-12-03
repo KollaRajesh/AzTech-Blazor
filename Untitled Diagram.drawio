@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-03T05:03:15.140Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52" etag="9-zYwHiquLO6PmuVQnCS" version="13.10.6" type="github" pages="9">
+<mxfile modified="2020-12-03T05:05:32.961Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52" etag="i3VGh2PAvKZfBdF2Z8hc" version="13.10.6" type="github" pages="9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1816" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -793,11 +793,11 @@
         <mxCell id="k3OIGbtlNtqCWcx-cSSx-1" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
           <mxGeometry x="828" y="-3208" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="k3OIGbtlNtqCWcx-cSSx-2" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
-          <mxGeometry x="826.5" y="-3123.5" width="40" height="38" as="geometry" />
+        <mxCell id="k3OIGbtlNtqCWcx-cSSx-2" value="Pros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
+          <mxGeometry x="826.5" y="-3123.5" width="63.5" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="k3OIGbtlNtqCWcx-cSSx-3" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
-          <mxGeometry x="826.5" y="-3030" width="40" height="38" as="geometry" />
+        <mxCell id="k3OIGbtlNtqCWcx-cSSx-3" value="Cons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
+          <mxGeometry x="826.5" y="-3030" width="63.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="k3OIGbtlNtqCWcx-cSSx-4" value="4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
           <mxGeometry x="826.5" y="-2852" width="40" height="38" as="geometry" />
@@ -821,7 +821,7 @@
           <mxGeometry x="879.5" y="-3208.5" width="449" height="88.5" as="geometry" />
         </mxCell>
         <mxCell id="k3OIGbtlNtqCWcx-cSSx-11" value="&lt;div&gt;•&lt;span&gt;	&lt;/span&gt;Fully utilize the Client Resources&amp;nbsp;&lt;/div&gt;&lt;div&gt;•&lt;span&gt;	&lt;/span&gt;latest version&amp;nbsp;&lt;/div&gt;&lt;div&gt;•&lt;span&gt;	&lt;/span&gt;Suitable for off-line work loads&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
-          <mxGeometry x="880.5" y="-3145" width="450" height="75" as="geometry" />
+          <mxGeometry x="920" y="-3130" width="450" height="75" as="geometry" />
         </mxCell>
         <mxCell id="k3OIGbtlNtqCWcx-cSSx-12" value="&lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1">
           <mxGeometry x="890" y="-3050" width="450" height="117" as="geometry" />
