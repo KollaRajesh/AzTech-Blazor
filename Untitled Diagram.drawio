@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-05T03:51:43.322Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="Iy0w79ZJicuaYswTVm4D" version="13.10.9" type="github" pages="6">
+<mxfile modified="2020-12-05T04:05:23.947Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="ZrQrYaNQ5XQSppAcRWLt" version="13.10.9" type="github" pages="6">
   <diagram id="ya712KnNzOhnu0x7LLa6" name="Blazor Overview">
     <mxGraphModel dx="1874" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -641,7 +641,7 @@
           <mxGeometry x="35.892857142857146" y="47.25" width="366.10714285714283" height="370.125" as="geometry" />
         </mxCell>
         <mxCell id="BCGx23qigrjJBWcTM0aW-3" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
-          <mxGeometry x="43.07142857142858" y="9.450000000000001" width="78.96428571428571" height="20.475" as="geometry" />
+          <mxGeometry x="65.50142857142858" y="12.75" width="78.96428571428571" height="20.475" as="geometry" />
         </mxCell>
         <mxCell id="BCGx23qigrjJBWcTM0aW-4" value="https://www.Blazor-wasm.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
           <mxGeometry x="122.03837301587302" y="51.75000000000001" width="179.46428571428572" height="20.475" as="geometry" />
@@ -793,10 +793,10 @@
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-2" value="Cons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="dmM4tynu6iYlN0jomcIM-0" vertex="1">
           <mxGeometry x="808" y="680" width="53.5" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-3" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&amp;nbsp;Initial request payload size is small compare to BlazerWasm&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Fast development&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp; support all Browsers&lt;/li&gt;&lt;li&gt;Large Security sandbox&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fillColor=#cce5ff;strokeColor=#36393d;" parent="dmM4tynu6iYlN0jomcIM-0" vertex="1">
+        <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-3" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Initial request payload size is small compare to Blazer-Wasm&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Fast development&amp;nbsp;&lt;/li&gt;&lt;li&gt;Support all Browsers&lt;/li&gt;&lt;li&gt;Large Security sandbox&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fillColor=#cce5ff;strokeColor=#36393d;" parent="dmM4tynu6iYlN0jomcIM-0" vertex="1">
           <mxGeometry x="870" y="564.6700000000001" width="430" height="95.33" as="geometry" />
         </mxCell>
-        <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-4" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;High usage of resources on the server if more no of users are connected&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Doesn’t work if signal-R disconnected&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Not suitable for offline workloads&lt;/li&gt;&lt;li&gt;Latency on each event&amp;nbsp;&lt;/li&gt;&lt;li&gt;Maintain client state on Server&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fillColor=#ffcccc;strokeColor=#36393d;" parent="dmM4tynu6iYlN0jomcIM-0" vertex="1">
+        <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-4" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;High usage of resources on the server if more no of users are connected&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Doesn’t work if signal-R disconnected&amp;nbsp;&lt;/li&gt;&lt;li&gt;Not suitable for offline workloads&lt;/li&gt;&lt;li&gt;Latency on each event&amp;nbsp;&lt;/li&gt;&lt;li&gt;Maintain client state on Server&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;fillColor=#ffcccc;strokeColor=#36393d;" parent="dmM4tynu6iYlN0jomcIM-0" vertex="1">
           <mxGeometry x="870" y="680" width="430" height="115" as="geometry" />
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-5" value="" style="group" parent="mIsDHRzmLIKhYLVHA_MT-1" vertex="1" connectable="0">
@@ -833,9 +833,6 @@
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-14" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="UvBKq6m1IBPaoDrNQ8Dq-5" vertex="1">
           <mxGeometry x="26.666666666666664" y="89.71529411764705" width="260" height="289.10823529411766" as="geometry" />
-        </mxCell>
-        <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-15" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="UvBKq6m1IBPaoDrNQ8Dq-14" vertex="1">
-          <mxGeometry x="40" y="8.837706752891432" width="73.33333333333333" height="19.14836463126477" as="geometry" />
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-16" value="&lt;font style=&quot;font-size: 12px&quot;&gt;https://www.Blazor.com&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="UvBKq6m1IBPaoDrNQ8Dq-14" vertex="1">
           <mxGeometry x="123.33" y="63.34" width="166.67" height="16.66" as="geometry" />
@@ -898,6 +895,9 @@
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-30" value="Dotnet" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="UvBKq6m1IBPaoDrNQ8Dq-14" vertex="1">
           <mxGeometry x="475.16666666666663" y="166.1058823529412" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="peyIichLNwhuDvslhH51-1" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="UvBKq6m1IBPaoDrNQ8Dq-14">
+          <mxGeometry x="74.72761904761907" y="10.284705882353137" width="78.96428571428571" height="20.475" as="geometry" />
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UvBKq6m1IBPaoDrNQ8Dq-5" source="UvBKq6m1IBPaoDrNQ8Dq-14" target="UvBKq6m1IBPaoDrNQ8Dq-12" edge="1">
           <mxGeometry x="1152" y="287.4611764705882" as="geometry">
