@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-05T04:05:23.947Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="ZrQrYaNQ5XQSppAcRWLt" version="13.10.9" type="github" pages="6">
+<mxfile modified="2020-12-05T04:09:09.219Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="ZQZRJgptPFsXder9-UuC" version="13.10.9" type="github" pages="6">
   <diagram id="ya712KnNzOhnu0x7LLa6" name="Blazor Overview">
     <mxGraphModel dx="1874" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -644,9 +644,9 @@
           <mxGeometry x="65.50142857142858" y="12.75" width="78.96428571428571" height="20.475" as="geometry" />
         </mxCell>
         <mxCell id="BCGx23qigrjJBWcTM0aW-4" value="https://www.Blazor-wasm.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
-          <mxGeometry x="122.03837301587302" y="51.75000000000001" width="179.46428571428572" height="20.475" as="geometry" />
+          <mxGeometry x="126.52837301587302" y="62.75000000000001" width="179.46428571428572" height="20.475" as="geometry" />
         </mxCell>
-        <mxCell id="BCGx23qigrjJBWcTM0aW-6" value="DOM" style="rounded=1;whiteSpace=wrap;html=1;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
+        <mxCell id="BCGx23qigrjJBWcTM0aW-6" value="DOM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
           <mxGeometry x="33.20328571428571" y="122.75" width="272.7857142857143" height="39.37500000000001" as="geometry" />
         </mxCell>
         <mxCell id="mHa-uNQzTQxAb7V7aONS-10" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="BCGx23qigrjJBWcTM0aW-2" vertex="1">
@@ -838,7 +838,7 @@
           <mxGeometry x="123.33" y="63.34" width="166.67" height="16.66" as="geometry" />
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-17" value="DOM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="UvBKq6m1IBPaoDrNQ8Dq-14" vertex="1">
-          <mxGeometry x="30" y="98.85819425444598" width="180" height="36.82377813704763" as="geometry" />
+          <mxGeometry x="26.67" y="120.28" width="180" height="25.68" as="geometry" />
         </mxCell>
         <mxCell id="UvBKq6m1IBPaoDrNQ8Dq-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="UvBKq6m1IBPaoDrNQ8Dq-14" vertex="1">
           <mxGeometry x="373.3333333333333" y="73.36" width="266.66666666666663" height="139.0035294117647" as="geometry" />
