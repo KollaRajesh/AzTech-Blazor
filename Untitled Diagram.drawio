@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-06T02:17:56.974Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="gbq312OTZNW2JCTb5ufA" version="13.10.9" type="github" pages="6">
+<mxfile modified="2020-12-06T06:56:59.048Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="cZSzNERuWMZs-ZWOCAYj" version="13.10.9" type="github" pages="6">
   <diagram id="ya712KnNzOhnu0x7LLa6" name="Blazor Overview">
     <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1248,7 +1248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ezsEUA_XxGU_AQiGLk6M" name="DataBinding">
-    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2383" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Zt_dbN1J97LQYkSeGHeL-0" />
         <mxCell id="Zt_dbN1J97LQYkSeGHeL-1" parent="Zt_dbN1J97LQYkSeGHeL-0" />
