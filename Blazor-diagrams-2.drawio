@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T15:46:53.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="WZ3yTBKIv1aEA7vxPrOA" version="13.10.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-06T15:54:47.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.47" etag="Hyomm3nm7ZnwI7iaUPSt" version="13.10.9" type="github" pages="6">
   <diagram id="__aNvBIpFo6iAnKb5j0i" name="Component-Parameters">
     <mxGraphModel dx="1135" dy="2759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W9_mjfB8pjI7Oip9zMrW" name="Events&amp;EventsCallbacks">
-    <mxGraphModel dx="1643" dy="3010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1986" dy="3178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hCL6xF1hdjv98cF2UpbP-0" />
         <mxCell id="hCL6xF1hdjv98cF2UpbP-1" parent="hCL6xF1hdjv98cF2UpbP-0" />
@@ -112,7 +112,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Auve9WxXiBeeQoPr-FhA" name="Navigation">
-    <mxGraphModel dx="2383" dy="3374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="3010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="GskLDNcmqgeQkMdwh_xe-0" />
         <mxCell id="GskLDNcmqgeQkMdwh_xe-1" parent="GskLDNcmqgeQkMdwh_xe-0" />
@@ -129,7 +129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TYjgCoZiv3WFDvvks3ow" name="Dependency Injection">
-    <mxGraphModel dx="1643" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3972" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wXuouIgSYfizuccHPqjJ-0" />
         <mxCell id="wXuouIgSYfizuccHPqjJ-1" parent="wXuouIgSYfizuccHPqjJ-0" />
