@@ -1,0 +1,26 @@
+﻿<form class="form-inline" >
+    <div class="form-group mx-sm-3 mb-2">
+    <label for="searchCriterion">Search: &nbsp;</label>
+    <input type="text" class="form-control" id="filter"
+            placeholder="@placeholder" @bind-value="searchCriterion">
+    </div>
+    <button type="button" class="btn btn-primary mb-2"  @onclick="HandleSearch">
+    Search</button>
+</form>
+@code {
+    private string searchCriterion;
+    private string placeholder = "Search Products";
+
+    private void HandleSearch()
+    {
+        OnSearch.InvokeAsync(searchCriterion);
+    }
+
+    [Parameter]
+    public EventCallback<string> OnSearch { get; set; }
+
+    }
+
+
+ 
+

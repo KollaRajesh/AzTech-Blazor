@@ -1,0 +1,9 @@
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\bin\Debug\netstandard2.0\eShop.CoreBusiness.deps.json
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\bin\Debug\netstandard2.0\eShop.CoreBusiness.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\bin\Debug\netstandard2.0\eShop.CoreBusiness.pdb
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.csprojAssemblyReference.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.AssemblyInfo.cs
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.CoreBusiness\obj\Debug\netstandard2.0\eShop.CoreBusiness.pdb

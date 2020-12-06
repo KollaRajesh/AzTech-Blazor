@@ -1,0 +1,67 @@
+﻿@page "/jsinterop"
+@inject IJSRuntime JSRuntime;
+<h3>JS InterOperability </h3>
+<hr />
+<h3>Text received</h3>
+
+
+<ul>
+    @foreach (string text in TextHistory)
+    {
+        <li>@text</li>
+    }
+</ul>
+<hr />
+<button type="button" class="btn btn-primary" @onclick="CallJs">
+    Call a JS  from Blazor
+</button>
+<span> @jsText</span>
+
+<hr />
+<p>
+    <button @onclick=ShowConfirm>Confirm popup</button>
+</p>
+<p>
+    <button @onclick=ShowPrompt>Prompt popup</button>
+</p>
+@code {
+    private string jsText = string.Empty;
+
+    List<string> TextHistory = new List<string>();
+    private async Task CallJs()
+    {
+        jsText = await JSRuntime.InvokeAsync<string>("JSFromBlazor.ReplayToBlazor");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        if (firstRender)
+        {
+            // See warning about memory above in the article
+            var dotNetReference = DotNetObjectReference.Create(this);
+            JSRuntime.InvokeVoidAsync("BlazorFromJS.startRandomGenerator", dotNetReference);
+        }
+    }
+
+    [JSInvokable("AddText")]
+    public void AddTextToTextHistory(string text)
+    {
+        TextHistory.Add(text.ToString());
+        while (TextHistory.Count > 10)
+            TextHistory.RemoveAt(0);
+      StateHasChanged();
+        System.Diagnostics.Debug.WriteLine("DotNet: Received " + text);
+    }
+    private string Result;
+    private async Task ShowConfirm()
+    {
+        bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure?");
+        Result = confirmed ? "You clicked OK" : "You clicked Cancel";
+    }
+    private async Task ShowPrompt()
+    {
+        string name = await JSRuntime.InvokeAsync<string>("prompt", "What is your name?");
+        Result = "Your name is: " + name;
+    }
+}

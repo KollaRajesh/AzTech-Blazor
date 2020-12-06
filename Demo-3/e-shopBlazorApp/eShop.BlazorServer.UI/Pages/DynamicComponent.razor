@@ -1,0 +1,27 @@
+﻿@page "/dynamicComponent"
+<hr />
+<button @onclick="HandleBlazorServerClick"> Blazor Server</button>
+<button @onclick="HandleBlazorWASMClick"> Blazor WASM Server</button>
+<br />
+<div><h3>@Title </h3></div>
+<br />
+<div>@Content </div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string Content { get; set; }
+    private void HandleBlazorServerClick()
+    {
+        Title = "Blazor Server";
+        Content = "Blazor Server generates dynamic contents on the server  and sends the contents to the browser";
+    }
+
+    private void HandleBlazorWASMClick()
+    {
+        Title = "Blazor WASM";
+        Content = "Blazor Web Assembly runs completely within the web browser and generates dynamic contents directly at the front end";
+    }
+
+}

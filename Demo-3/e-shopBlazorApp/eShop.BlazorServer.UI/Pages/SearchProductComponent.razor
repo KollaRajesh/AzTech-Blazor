@@ -1,0 +1,88 @@
+﻿@page "/products"
+@inject ISearchProduct  searchProduct
+<h3>SearchProductComponent</h3>
+<SearchBarComponent OnSearch="HandleSearch"></SearchBarComponent>
+
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (products != null  && products.Count() >0)
+        {
+            @foreach (Product product in products)
+            {
+                @if (product != null)
+                {
+                    <ProductItemComponent Product=product />
+                }
+
+            }
+        }
+        else { 
+         <tr> <td colspan="3">can't find product</td></tr>
+        }
+    </tbody>
+</table>
+@code {  
+
+
+    private IEnumerable<Product> products = null;
+
+
+    /* order of life cycel events for blzor component*/
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+            products = searchProduct.Execute();
+    }
+
+
+    private void HandleSearch(string filter)
+    {
+        products = searchProduct.Execute(filter);
+    }
+
+  
+    //protected override void OnParametersSet()
+    //{
+    //    base.OnParametersSet();
+    //}
+
+    //protected override bool ShouldRender()
+    //{
+    //    return base.ShouldRender();
+    //}
+
+
+    //protected override void OnAfterRender(bool firstRender)
+    //{
+    //    base.OnAfterRender(firstRender);
+    //}
+
+
+    //protected override Task OnInitializedAsync()
+    //{
+    //    return base.OnInitializedAsync();
+    //}
+
+    //protected override Task OnParametersSetAsync()
+    //{
+    //    return base.OnParametersSetAsync();
+    //}
+
+
+    //protected override Task OnAfterRenderAsync(bool firstRender)
+    //{
+    //    return base.OnAfterRenderAsync(firstRender);
+    //}
+
+}

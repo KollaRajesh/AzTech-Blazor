@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dk05QjaTPQglEsyVbPhm0K+J0n0azukHCegX4TUkUuu5BTDda227kaWcvtMadKPkjuc0+PLSJ6FhsMSuJJtu3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rajesh\\coderep\\AzureTechDayDemo_Blazor\\e-shopBlazorApp\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajesh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rajesh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

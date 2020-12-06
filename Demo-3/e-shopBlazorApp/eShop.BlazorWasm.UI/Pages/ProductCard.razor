@@ -1,0 +1,64 @@
+﻿@page "/product/{id}"
+@inject IViewProductAsync viewProduct
+@inject NavigationManager navigationManager
+
+<h3> Product Details </h3>
+<div>
+    @if (product != null)
+    {
+
+        <div class="card" style="width: 28rem;">
+            <div class="card-body">
+                <img src="@product.img" class="card-img-top" />
+                <h5 class="card-title">@product.Title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@product.Maker</h6>
+                <hr />
+                <p class="card-text">@product.Description</p>
+                <p class="card-text">Rating &nbsp; @AverageRating()</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <span> "Product doesn't exist , pleae check product id."</span>
+    }
+</div>
+
+<button type="button" class="btn btn-link"
+        @onclick="NavigateToProducts">
+    Back to Products
+</button>
+
+@code {
+
+    private void NavigateToProducts()
+    {
+        navigationManager.NavigateTo("products");
+    }
+
+    private Product product;
+    [Parameter]
+    public string id { get; set; }
+    protected override async Task OnParametersSetAsync()
+    {
+        await base.OnParametersSetAsync();
+
+        if (!string.IsNullOrWhiteSpace(id))
+            product = await viewProduct.Execute(id);
+    }
+
+    private int AverageRating()
+    {
+        if (product != null &&
+            product.Ratings != null &&
+            product.Ratings.Count > 0)
+            return Convert.ToInt32(product.Ratings.Average());
+        else
+            return 0;
+    }
+
+}
+
+@*<NavLink href="products">
+        <span> Back to Products</span>
+    </NavLink>*@

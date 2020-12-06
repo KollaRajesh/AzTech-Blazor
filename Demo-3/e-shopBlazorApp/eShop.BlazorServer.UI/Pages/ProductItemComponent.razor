@@ -1,0 +1,29 @@
+﻿    <tr>
+        <td>
+            <NavLink href="@($"product/{Product.Id}")">
+            <span>  @Product.Title</span>
+            </NavLink>
+        </td>
+        <td>@Product.Maker </td>
+        <td>@AverageRating(Product)</td>
+    </tr>
+
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+    protected override void OnParametersSet()
+
+    {
+        base.OnParametersSet();
+    }
+
+    private int AverageRating(Product product)
+    {
+        if (product != null &&
+            product.Ratings != null &&
+            product.Ratings.Count > 0)
+            return Convert.ToInt32(product.Ratings.Average());
+        else
+            return 0;
+    }
+}

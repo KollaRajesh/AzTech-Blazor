@@ -1,0 +1,14 @@
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.DataStore.HardCoded.deps.json
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.DataStore.HardCoded.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.DataStore.HardCoded.pdb
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.CoreBusiness.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.UseCases.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.CoreBusiness.pdb
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\bin\Debug\netstandard2.0\eShop.UseCases.pdb
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.csprojAssemblyReference.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.AssemblyInfoInputs.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.AssemblyInfo.cs
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.csproj.CoreCompileInputs.cache
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.csproj.CopyComplete
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.dll
+C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.DataStore.HardCoded\obj\Debug\netstandard2.0\eShop.DataStore.HardCoded.pdb

@@ -1,0 +1,49 @@
+﻿@page "/addproduct"
+<h3>Edit Product</h3>
+<EditForm Model="ProductModel"
+          OnValidSubmit="HandleSumitForm">
+    @*<DataAnnotationsValidator />*@
+    <FluentValidationValidator/> 
+
+
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="Maker">Maker: &nbsp; </label>
+        <InputText id="Maker" class="form-control"
+                   placeholder="Maker Name" @bind-Value="ProductModel.Maker">Maker</InputText>
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="Title">Title : &nbsp; </label>
+        <InputText id="Title" class="form-control"
+                   placeholder="Title Name" @bind-Value="ProductModel.Title">Title</InputText>
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="Description">Description : &nbsp; </label>
+        <InputText id="Description" class="form-control"
+                   placeholder="Product Description" @bind-Value="ProductModel.Description">Title</InputText>
+    </div>
+
+    <ValidationSummary />
+    <span class="bg-success">@Message </span>
+
+
+    <button type="submit" class="btn btn-primary mb-2">
+        Add Product
+    </button>
+
+</EditForm>
+@code {
+
+    private ProductViewModel ProductModel;
+    private string Message;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ProductModel = new ProductViewModel();
+    }
+    protected void HandleSumitForm()
+    {
+        Message = "Successfully submitted.";
+        Console.WriteLine("Valid submit");
+    }
+
+}
