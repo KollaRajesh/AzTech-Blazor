@@ -1,9 +1,0 @@
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\bin\Debug\eShop.UseCases.dll
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\bin\Debug\eShop.UseCases.pdb
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\bin\Debug\eShop.CoreBusiness.dll
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\bin\Debug\eShop.CoreBusiness.pdb
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\obj\Debug\eShop.UseCases.csprojAssemblyReference.cache
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\obj\Debug\eShop.UseCases.csproj.CoreCompileInputs.cache
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\obj\Debug\eShop.UseCases.csproj.CopyComplete
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\obj\Debug\eShop.UseCases.dll
-C:\Users\rajesh\coderep\AzureTechDayDemo_Blazor\e-shopBlazorApp\eShop.UseCases\obj\Debug\eShop.UseCases.pdb
