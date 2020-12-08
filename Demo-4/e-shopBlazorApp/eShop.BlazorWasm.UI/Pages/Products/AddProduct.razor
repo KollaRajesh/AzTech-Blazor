@@ -1,7 +1,9 @@
 ﻿@page "/addproduct"
+
 <h3>Edit Product</h3>
 <EditForm Model="ProductModel"
-          OnValidSubmit="HandleSumitForm">
+          OnValidSubmit="HandleSumitForm" 
+          OnInvalidSubmit="HandleInvalidSubmit">
     @*<DataAnnotationsValidator />*@
     <FluentValidationValidator/> 
 
@@ -39,11 +41,20 @@
     {
         base.OnInitialized();
         ProductModel = new ProductViewModel();
+        Log.Verbose("Initialized Add Product form");
     }
     protected void HandleSumitForm()
     {
         Message = "Successfully submitted.";
+        Log.Information(Message);
+
+        Log.Error("validation for Product {@Response} is completed  and " + Message, ProductModel);
         Console.WriteLine("Valid submit");
+    }
+    protected void HandleInvalidSubmit()
+    {
+
+        Log.Error("InValid submit : Client site validation got failed for given Product {@Response} ",ProductModel);
     }
 
 }

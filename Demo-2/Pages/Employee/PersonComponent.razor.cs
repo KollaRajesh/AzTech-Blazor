@@ -5,23 +5,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlazorApp
+namespace BlazorApp.Pages.Employee
 {
-    public class EmployeComponent :ComponentBase
+    public partial class PersonComponent : ComponentBase
     {
-        public int id { get; set; }
+        [Parameter]
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string Dept { get; set; }
         public string Address { get; set; }
-
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            var employee = EmployeService.GetEmployee();
-            id = employee.id;
-            Name = employee.Name;
-            Dept = employee.Dept;
-            Address = employee.Address;
+            var person = PersonService.GetPerson(1);
+            Id = person.Id;
+            Name = person.Name;
+            Address = person.Address;
+
         }
     }
 }

@@ -13,6 +13,8 @@ using eShop.UseCases.PluginInterfaces.DataStore;
 using eShop.DataStore.HardCoded;
 using eShop.UseCases.SearchProductScreen;
 using System.Net.Http;
+using Serilog;
+using Serilog.Core;
 
 namespace eShop.BlazorServer.UI
 {
@@ -37,6 +39,27 @@ namespace eShop.BlazorServer.UI
             services.AddHttpClient<IProductRepository, ProductRepository>();
             //services.AddTransient<IProductRepository, ProductRepository>();
 
+            //Configure log level
+            // builder.Services.AddLogging(configure => configure.SetMinimumLevel(LogLevel.Trace));
+            //https://github.com/serilog/serilog-sinks-browserconsole
+            //Log.Logger = new LoggerConfiguration()
+            //                .MinimumLevel.Debug()
+            //                .WriteTo.BrowserConsole()
+            //                .CreateLogger();
+
+            //https://github.com/nblumhardt/serilog-sinks-browserhttp/blob/dev/README.md
+            //var levelSwitch = new LoggingLevelSwitch();
+            //Log.Logger = new LoggerConfiguration()
+            //    .MinimumLevel.ControlledBy(levelSwitch)
+            //    .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
+            //    .CreateLogger();
+            var levelSwitch = new LoggingLevelSwitch();
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.ControlledBy(levelSwitch)
+                .Enrich.WithProperty("InstanceId", Guid.NewGuid().ToString("n"))
+                .WriteTo.BrowserConsole()
+                .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
+                .CreateLogger();
 
         }
 

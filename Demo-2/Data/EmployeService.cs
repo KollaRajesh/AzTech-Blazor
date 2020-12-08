@@ -7,19 +7,31 @@ namespace BlazorApp.Data
 {
     public class EmployeService
     {
-        public static Employee GetEmployee()
+        readonly static List<Employee> employees = null;
+         static  EmployeService()
         {
-            return new Employee { id = 1, Name = "xyz", Dept = "abc", Address = "15,east Dr, CA" };
-        
+             employees = PersonService.GetPersons()
+                                         .Select(p=> 
+                                                new Employee { Id = p.Id, 
+                                                               Name = p.Name,
+                                                               Address = p.Address,
+                                                               Dept = (p.Id % 2 == 0) ? "abc" : "pqr" }).ToList();
+        }
+        public static Employee GetEmployee(int id )
+        {
+            if (id > 0)
+                return employees.FirstOrDefault(x => x.Id == id);
+            else return new Employee();
+        }
+
+        public static List<Employee>  GetEmployees()
+        {
+            return employees;
         }
     }
-
-    public class Employee
+    public class Employee:Person
     {
-        public int id { get; set; }
-        public string Name { get; set; }
         public string Dept { get; set; }
-        public string Address { get; set; }
 
     }
 }
