@@ -13,8 +13,9 @@ using eShop.UseCases.PluginInterfaces.DataStore;
 using eShop.DataStore.HardCoded;
 using eShop.UseCases.SearchProductScreen;
 using System.Net.Http;
-using Serilog;
 using Serilog.Core;
+using Serilog;
+using Serilog.Debugging;
 
 namespace eShop.BlazorServer.UI
 {
@@ -39,6 +40,14 @@ namespace eShop.BlazorServer.UI
             services.AddHttpClient<IProductRepository, ProductRepository>();
             //services.AddTransient<IProductRepository, ProductRepository>();
 
+
+            //https://github.com/serilog/serilog-sinks-browserconsole
+            //https://www.nuget.org/packages/Serilog.Sinks.BrowserConsole
+            SelfLog.Enable(m => Console.Error.WriteLine(m));
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.BrowserConsole()
+                .CreateLogger();
             //Configure log level
             // builder.Services.AddLogging(configure => configure.SetMinimumLevel(LogLevel.Trace));
             //https://github.com/serilog/serilog-sinks-browserconsole
@@ -53,13 +62,13 @@ namespace eShop.BlazorServer.UI
             //    .MinimumLevel.ControlledBy(levelSwitch)
             //    .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
             //    .CreateLogger();
-            var levelSwitch = new LoggingLevelSwitch();
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.ControlledBy(levelSwitch)
-                .Enrich.WithProperty("InstanceId", Guid.NewGuid().ToString("n"))
-                .WriteTo.BrowserConsole()
-                .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
-                .CreateLogger();
+            // var levelSwitch = new LoggingLevelSwitch();
+            // Log.Logger = new LoggerConfiguration()
+            //     .MinimumLevel.ControlledBy(levelSwitch)
+            //     .Enrich.WithProperty("InstanceId", Guid.NewGuid().ToString("n"))
+            //     .WriteTo.BrowserConsole()
+            //     .WriteTo.BrowserHttp(controlLevelSwitch: levelSwitch)
+            //     .CreateLogger();
 
         }
 

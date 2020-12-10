@@ -1,0 +1,33 @@
+@page  "/dynamicComponent"
+
+
+<button class="btn btn-primary" @onclick="BlazorWasmHandler">Blazor Wasm</button>
+
+<button class="btn btn-primary" @onclick="BlzorServerHandler">Blazor Server</button>
+<span>@BlazorWasmMessage </span>
+
+
+<span>@BlazorServerMessage </span>
+@code 
+{
+ [Parameter]
+ public string BlazorWasmMessage { get; set; }
+    
+ [Parameter]
+ public string BlazorServerMessage { get; set; }
+
+ private  void BlzorServerHandler()
+ {
+     
+     BlazorServerMessage= "Blazor Server made communication between Client and Server in websocket messages using Signal-R technology. ";
+
+ }
+
+  private  void BlazorWasmHandler()
+ {
+     BlazorWasmMessage= "Blazor Wasm  made running C# directly on browser like javascript using Mono-Wasm runtime.";
+ }
+}
+
+
+
